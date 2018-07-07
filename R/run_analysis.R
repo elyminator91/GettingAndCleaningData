@@ -29,4 +29,4 @@ tidy_data <- data %>%
   group_by(subject, activity) %>%
   summarise_all(mean)
 
-readr::write_csv(tidy_data, "./data/tidy_data.csv")
+readr::write_delim(tidy_data, "./data/tidy_data.txt", delim = " ")

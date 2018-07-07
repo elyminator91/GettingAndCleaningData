@@ -17,4 +17,4 @@ This is the final project for JHU's course titled **Getting and Cleaning Data** 
 * use group_by() and summarise_all() to create tidy data representing the means of readings for each subject for each activity
 
 ### 4. Export Tidy Data (using **readr** library)
-* use write_csv() to export tidy data to *./data/tidy_data.csv*
+* use write_delim() to export tidy data to *./data/tidy_data.txt*
